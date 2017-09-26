@@ -27,6 +27,9 @@ console.log(Interests);
 /*Previous Experience*/
 console.log("\n My Previous Experience:");
 
+function displayPosition()
+
+
 
 
 
