@@ -37,8 +37,14 @@ displayPosition ("\n*Microsoft", "*software engineer" , "*programmed and maintai
 
 displayPosition ("\n *Sony", "*marketing", "*head of software marketing")
 
-function displaySkill(skillName, Boolean){
-    console.log('this was my skill' +" "+ skillName+ "true or false" +" "+Boolean)
+
+
+function displaySkill(skillName, Boolean){ 
+    if (Boolean === true){
+        console.log ("* Check It" + skillName);
+    }
+    else
+    console.log('* ' + skillName);
 }
 
 displaySkill ("\n marketing", true)
