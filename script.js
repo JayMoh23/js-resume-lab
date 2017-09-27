@@ -27,12 +27,36 @@ console.log(Interests);
 /*Previous Experience*/
 console.log("\n My Previous Experience:");
 
-function displayPosition 
-(companyName, jobTitle, description){
-    return companyName + jobTitle + description;
+function displayPosition(companyName, jobTitle, description){
+    console.log('this was my company' + companyName +"this was my job title"+ jobTitle + "this was what I did at my position"+description);
 }
 
-displayPosition ()
+displayPosition ("\n*Google", "*web developer", "*created webpages");
+
+displayPosition ("\n*Microsoft", "*software engineer" , "*programmed and maintained software");
+
+displayPosition ("\n *Sony", "*marketing", "*head of software marketing")
+
+function displaySkill(skillName, Boolean){
+    console.log('this was my skill' + skillName+ "true or false" +Boolean)
+}
+
+displaySkill ("\n marketing", true)
+
+displaySkill ("\n engineering", true)
+
+displaySkill ("/n dog whisperer", false)
+
+displaySkill ("\n development", true)
+
+
+
+
+
+
+
+
+
 
 
 
