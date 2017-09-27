@@ -27,7 +27,12 @@ console.log(Interests);
 /*Previous Experience*/
 console.log("\n My Previous Experience:");
 
-function displayPosition()
+function displayPosition 
+(companyName, jobTitle, description){
+    return companyName + jobTitle + description;
+}
+
+displayPosition ()
 
 
 
